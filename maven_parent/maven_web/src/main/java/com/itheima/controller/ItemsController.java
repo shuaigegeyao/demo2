@@ -18,7 +18,7 @@ public class ItemsController {
     public String findDetail(Model model){
         Items items = itemsService.findById(1);
         model.addAttribute("item", items);
-        System.out.println("上传");
+        System.out.println("上传222");
         return "itemDetail";
     }
 }
